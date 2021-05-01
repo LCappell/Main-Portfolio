@@ -9,5 +9,7 @@ const routes = require("./routes");
 app.use("/", routes);
 //Call pug
 app.set("view engine", "pug");
+
+/*GET generated error route - create and throw 500 server error **/
 // Server Port
 app.listen(port, () => console.log(`Server is running on port: ${port}`));

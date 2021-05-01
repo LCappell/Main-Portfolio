@@ -6,6 +6,7 @@ html(lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css")
     link(rel='stylesheet', href='/css/normalize.css')
     link(rel='stylesheet', href='/css/styles.css')
 
@@ -14,17 +15,26 @@ html(lang="en" dir="ltr")
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='https://placehold.it/550x350', alt='')
+          img.thumbnail(src=`${images/profile_pic}`, alt='')
         .dev-intro-box
 
           //- Replace with your name
-          h5 Louis
+          h5 Louis Cappell
 
           //- Replace with description of who you are, what you do, and why you are so awesome
-          p Description
+          p Self-Taught Software Developer with a programming passion!
+     
+
+          p London, United Kingdom
 
           //- Add path from your '/about' route handler to the href below
           a(href='about') Learn More &rarr;
+
+        .icons
+          a(href="https://www.linkedin.com/in/louis-cappell-b875a0180/" target="_blank")
+            i.fab.fa-linkedin-in.fa-3x
+          a(href="https://github.com/LCappell" target="_blank")
+            i.fab.fa-github-square.fa-3x
 
     .wrapper
       .header
@@ -32,7 +42,7 @@ html(lang="en" dir="ltr")
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
           //- Replace with your name — this is for the mobile layout
-          span Name
+          span Louis Cappell
 
       block content
 
