@@ -31,11 +31,8 @@ block content
         a.btn-link(href=`${project.github_link}` target="_blank") GitHub Repo
 
     .project-img-box.box
-
-      //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
-      img.project-img(src=`${project.image_urls.projectimg1}`, alt='')
-      img.project-img(src=`${project.image_urls.projectimg2}`, alt='')
-      img.project-img(src=`${project.image_urls.projectimg3}`, alt='')
+      each img in project.image_urls
+            img.project-img(src=`${img}`, alt=`Image of ${project.project_name}`)
 
     nav.nav
       a(href='/')

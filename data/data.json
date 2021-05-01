@@ -2,14 +2,11 @@
   "Projects": [
     {
       "id": "0",
-      "project_name": "Public_API",
+      "project_name": "User API",
       "description": "A generated random User API displayinng each individuals information. Complte with a search bar and pagination buttons",
-      "technologies": ["JavaScript", "CSS", "HTML"],
+      "technologies": ["JavaScript", "CSS", "HTML", "Fetch API"],
       "github_link": "https://github.com/LCappell/TreeHouse-Project-5",
-      "image_urls": {
-        "projectimg1": "./images/api1.jpg",
-        "projectimg2": "./images/api2.png"
-      }
+      "image_urls": ["./images/api1.jpg", "./images/api2.png"]
     },
     {
       "id": "1",
@@ -17,21 +14,19 @@
       "description": "A Cafe website",
       "technologies": ["JavaScript", "CSS", "HTML"],
       "github_link": "https://github.com/LCappell/Cafe",
-      "image_urls": {
-        "projectimg1": "./images/cafe1.png",
-        "projectimg2": "./images/cafe1.png",
-        "projectimg3": "./images/cafe1.png"
-      }
+      "image_urls": [
+        "./images/cafe1.png",
+        "./images/cafe1.png",
+        "./images/cafe1.png"
+      ]
     },
     {
       "id": "2",
-      "project_name": "phraseGame",
+      "project_name": "Guessing Game",
       "description": "A guessing phrase game",
       "technologies": ["JavaScript", "CSS", "HTML"],
       "github_link": "https://github.com/LCappell/Cafe",
-      "image_urls": {
-        "projectimg1": "./images/PhraseGame.png"
-      }
+      "image_urls": ["./images/PhraseGame.png"]
     }
   ]
 }
