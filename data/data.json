@@ -1,0 +1,43 @@
+{
+  "Projects": {
+    "Project1": [
+      {
+        "id": "0",
+        "project_name": "Public_API",
+        "description": "A generated random User API displayinng each individuals information. Complte with a search bar and pagination buttons",
+        "technologies": ["JavaScript", "CSS", "HTML"],
+        "github_link": "https://github.com/LCappell/TreeHouse-Project-5",
+        "image_urls": ["./images/ap1.png", "./images/ap2.png"]
+      }
+    ],
+    "Project2": [
+      {
+        "id": "1",
+        "project_name": "Cafe",
+        "description": "A Cafe website",
+        "technologies": ["JavaScript", "CSS", "HTML"],
+        "github_link": "https://github.com/LCappell/Cafe",
+        "image_urls": [
+          "./images/cafe1.png",
+          "./images/cafe2.png",
+          "./images/cafe3.png"
+        ]
+      }
+    ],
+
+    "Project3": [
+      {
+        "id": "2",
+        "project_name": "phraseGame",
+        "description": "A guessing phrase game",
+        "technologies": ["JavaScript", "CSS", "HTML"],
+        "github_link": "https://github.com/LCappell/Cafe",
+        "image_urls": [
+          "./images/cafe1.png",
+          "./images/cafe2.png",
+          "./images/cafe3.png"
+        ]
+      }
+    ]
+  }
+}
