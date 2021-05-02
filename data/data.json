@@ -27,6 +27,22 @@
       "technologies": ["JavaScript", "CSS", "HTML"],
       "github_link": "https://github.com/LCappell/Cafe",
       "image_urls": ["./images/PhraseGame.png"]
+    },
+
+    {
+      "id": "3",
+      "project_name": "Conference website with interactive form",
+      "description": "A full-stack confrence mockup website with an interactive register form.",
+      "technologies": ["JavaScript", "CSS", "HTML", "Bootstrap"],
+      "github_link": "https://github.com/LCappell/conf-website",
+      "image_urls": [
+        "./images/conf1.png",
+        "./images/conf2.png",
+        "./images/conf3.png",
+        "./images/form1.png",
+        "./images/form2.png",
+        "./images/form3.png"
+      ]
     }
   ]
 }

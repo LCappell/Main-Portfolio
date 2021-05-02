@@ -195,6 +195,18 @@ nav a span {
   margin-right: 25px;
 }
 
+.aboutlink {
+  padding: 10px;
+  text-align: right;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.aboutlink a {
+  text-decoration: none;
+  color: #000;
+}
+
 .header {
   vertical-align: middle;
   color: #fefefe;
@@ -317,6 +329,13 @@ nav a span {
 /* 
   Tablet layout styles 
 */
+
+@media screen and (max-width: 1024px) {
+  .aboutlink {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .sidebar h5 {
     font-size: 1.25rem;

@@ -7,6 +7,7 @@ app.use(express.static("public"));
 // Route to the routes folder
 const routes = require("./routes");
 app.use("/", routes);
+app.use("/project", routes);
 //Call pug
 app.set("view engine", "pug");
 
