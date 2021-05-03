@@ -15,7 +15,6 @@ router.get("/about", (req, res) => {
   res.render("about");
 });
 
-
 // ERROR HANDLER
 router.get("/error", (req, res, next) => {
   // Log out custom error handler indication
@@ -40,7 +39,5 @@ router.get("/projects/:id", (req, res, next) => {
     next(err);
   }
 });
-
-
 
 module.exports = router;
