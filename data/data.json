@@ -5,19 +5,22 @@
       "project_name": "User API",
       "description": "A generated random User API displayinng each individuals information. Complte with a search bar and pagination buttons",
       "technologies": ["JavaScript", "CSS", "HTML", "Fetch API"],
-      "github_link": "https://github.com/LCappell/TreeHouse-Project-5",
-      "image_urls": ["./images/api1.jpg", "./images/api2.png"]
+      "live_link": "https://lcappell.github.io/RandomUser_API/",
+      "github_link": "https://lcappell.github.io/RandomUser_API/",
+      "image_urls": ["/images/api1.jpg", "/images/api2.png", "/images/api4.png"]
     },
     {
       "id": "1",
       "project_name": "Cafe",
       "description": "A Cafe website",
       "technologies": ["JavaScript", "CSS", "HTML"],
-      "github_link": "https://github.com/LCappell/Cafe",
+      "live_link": "https://lcappell.github.io/CafeWeb/",
+      "github_link": "https://github.com/LCappell/CafeWeb",
       "image_urls": [
-        "./images/cafe1.png",
-        "./images/cafe1.png",
-        "./images/cafe1.png"
+        "/images/cafe1.png",
+        "/images/cafe2.png",
+        "/images/cafe3.png",
+        "/images/cafe4.png"
       ]
     },
     {
@@ -25,8 +28,14 @@
       "project_name": "Guessing Game",
       "description": "A guessing phrase game",
       "technologies": ["JavaScript", "CSS", "HTML"],
-      "github_link": "https://github.com/LCappell/Cafe",
-      "image_urls": ["./images/PhraseGame.png"]
+      "live_link": "https://lcappell.github.io/GuessingGame/",
+      "github_link": "https://github.com/LCappell/GuessingGame",
+      "image_urls": [
+        "/images/PhraseGame.png",
+        "/images/game2.png",
+        "/images/game3.png",
+        "/images/game4.png"
+      ]
     },
 
     {
@@ -34,14 +43,15 @@
       "project_name": "Conference website with interactive form",
       "description": "A full-stack confrence mockup website with an interactive register form.",
       "technologies": ["JavaScript", "CSS", "HTML", "Bootstrap"],
-      "github_link": "https://github.com/LCappell/conf-website",
+      "live_link": "https://lcappell.github.io/Conf_website/",
+      "github_link": "https://github.com/LCappell/Conf_website",
       "image_urls": [
-        "./images/conf1.png",
-        "./images/conf2.png",
-        "./images/conf3.png",
-        "./images/form1.png",
-        "./images/form2.png",
-        "./images/form3.png"
+        "/images/conf1.png",
+        "/images/conf2.png",
+        "/images/conf3.png",
+        "/images/form1.png",
+        "/images/form2.png",
+        "/images/form3.png"
       ]
     }
   ]

@@ -13,26 +13,32 @@ block content
 
 
         //- Use interpolation to dynamically add the project title
-        h1=projects.project_name
+        h1=project.project_name
 
         //- Use interpolation to dynamically add the project description
-        p=projects.description
+        p.projectInfo=project.description
 
       .project-tech-links-box.box
-        h6 Technologies
-        ul
-          each technology in projects.technologies
-            li= technology
+        h6 Technologies:
+          ul
+            each technology in project.technologies
+              li=technology
 
 
         //- Add the href values to the links below
-        a.btn-link(href='') Live Demo
-        a.btn-link(href=`${projects.github_link}` target="_blank") GitHub Repo
+        a.btn-link(href=`${project.live_link}` target="_blank") Live Demo
+        a.btn-link(href=`${project.github_link}` target="_blank") GitHub Repo
 
     .project-img-box.box
 
-      each image of projects.image_urls 
-        img.project-img(src=`${image.image_urls}`)
+        img.project-img(src=`${project.image_urls[0]}`)
+        img.project-img(src=`${project.image_urls[1]}`)
+        img.project-img(src=`${project.image_urls[2]}`)
+        img.project-img(src=`${project.image_urls[3]}`)
+        img.project-img(src=`${project.image_urls[4]}`)
+        img.project-img(src=`${project.image_urls[5]}`)
+        img.project-img(src=`${project.image_urls[6]}`)
+        img.project-img(src=`${project.image_urls[7]}`)
 
     nav.nav
       a(href='/')

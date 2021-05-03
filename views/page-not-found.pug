@@ -2,7 +2,9 @@ extends layout
 
 block content
     section
-        h2= error.message
-    a(href='/') Go Home 
-        h2= `error status code: ${error.status}`
-        img(src='/static/images/404pg.png' alt="404 page not found image")
+
+     .errorInfo
+            h2= error.message
+            a(href='/') Click here to return Home 
+            h2= `Error status code: ${error.status}`
+    img#errImg(src='/images/404error.png' alt="404 page not found image")
