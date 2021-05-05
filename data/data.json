@@ -14,8 +14,8 @@
       "project_name": "Cafe",
       "description": "A Cafe website",
       "technologies": ["JavaScript", "CSS", "HTML"],
-      "live_link": "https://lcappell.github.io/CafeWeb/",
-      "github_link": "https://github.com/LCappell/CafeWeb",
+      "live_link": "https://lcappell.github.io/Cafe_website/",
+      "github_link": "https://github.com/LCappell/Cafe_website",
       "image_urls": [
         "/images/cafe1.png",
         "/images/cafe2.png",
