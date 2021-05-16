@@ -53,6 +53,16 @@
         "/images/form2.png",
         "/images/form3.png"
       ]
+    },
+
+    {
+      "id": "3",
+      "project_name": " React GIF Generator",
+      "description": "A react webpage which generates trending gifs from an API. Complete with a search bar to see your favourite gifs!",
+      "technologies": ["JavaScript", "React", "CSS", "HTML", "Axios"],
+      "live_link": "https://github.com/LCappell/gif_generator",
+      "github_link": "https://lcappell.github.io/gif_generator/",
+      "image_urls": ["/images/gif1.jpg", "/images/gif2.png"]
     }
   ]
 }
