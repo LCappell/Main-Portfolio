@@ -5,8 +5,8 @@
       "project_name": "User API",
       "description": "A generated random User API displayinng each individuals information. Complte with a search bar and pagination buttons",
       "technologies": ["JavaScript", "CSS", "HTML", "Fetch API"],
-      "live_link": "https://lcappell.github.io/RandomUser_API/",
-      "github_link": "https://lcappell.github.io/RandomUser_API/",
+      "live_link": "https://lcappell.github.io/Public_API/",
+      "github_link": "https://github.com/LCappell/Public_API",
       "image_urls": ["/images/api1.jpg", "/images/api2.png", "/images/api4.png"]
     },
     {
@@ -60,7 +60,7 @@
       "project_name": " React GIF Generator",
       "description": "A react webpage which generates trending gifs from an API. Complete with a search bar to see your favourite gifs!",
       "technologies": ["JavaScript", "React", "CSS", "HTML", "Axios"],
-      "live_link": "https://lcappell.github.io/gif_main/",
+      "live_link": "https://trusting-hodgkin-a2414e.netlify.app/",
       "github_link": "https://github.com/LCappell/gif_main",
       "image_urls": ["/images/gif1.png", "/images/gif2.png"]
     }
