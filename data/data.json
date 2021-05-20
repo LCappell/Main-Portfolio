@@ -66,7 +66,7 @@
     },
     {
       "id": "5",
-      "project_name": " React Photo Generator",
+      "project_name": " React Photo Gallery",
       "description": "A react webpage which generates images from Flikr API. Complete with a search bar to see your favourite pictures!",
       "technologies": ["JavaScript", "React", "CSS", "HTML", "Axios"],
       "live_link": "https://keen-poincare-445aa1.netlify.app",
