@@ -2,17 +2,30 @@
   "Projects": [
     {
       "id": "0",
+      "project_name": " Live Crypto Tracker (React) ",
+      "description": "A live Crypto Currency tracker built with React. I am extremely interested in blockchain technology and Crypto currencies, so I  created my own live tracker with an attractive visual user interface",
+      "technologies": ["JavaScript", "React", "CSS", "HTML", "Axios"],
+      "live_link": "https://keen-poincare-445aa1.netlify.app",
+      "github_link": "https://github.com/LCappell/crypto-tracker",
+      "image_urls": [
+        "/images/crypto1.png",
+        "/images/crypto2.png",
+        "/images/crypto3.png"
+      ]
+    },
+    {
+      "id": "1",
       "project_name": "User API",
-      "description": "A generated random User API displayinng each individuals information. Complte with a search bar and pagination buttons",
+      "description": "A generated random User API displayinng each individuals information. Complete with a search bar and pagination buttons. I creatd this project to build my skills with fetching API's using vanilla JavaScript. ",
       "technologies": ["JavaScript", "CSS", "HTML", "Fetch API"],
       "live_link": "https://lcappell.github.io/Public_API/",
       "github_link": "https://github.com/LCappell/Public_API",
       "image_urls": ["/images/api1.jpg", "/images/api2.png", "/images/api4.png"]
     },
     {
-      "id": "1",
-      "project_name": "Cafe",
-      "description": "A Cafe website",
+      "id": "2",
+      "project_name": "Cafe Website",
+      "description": "A Cafe website using HTML, CSS and JavaScript. I used my skills in CSS grid and flexbox to create a great looking website that can be applied to many projects.",
       "technologies": ["JavaScript", "CSS", "HTML"],
       "live_link": "https://lcappell.github.io/Cafe_website/",
       "github_link": "https://github.com/LCappell/Cafe_website",
@@ -24,9 +37,9 @@
       ]
     },
     {
-      "id": "2",
+      "id": "3",
       "project_name": "Guessing Game",
-      "description": "A guessing phrase game",
+      "description": "A guessing phrase game. I used object-oriented programming (OOP) to create a guessing game. The user can win or loose depending whether they guess the correct phrase and will be shown a winner or loser screen. Give the game a go and see if you can guess the phrases! Have fun! ",
       "technologies": ["JavaScript", "CSS", "HTML"],
       "live_link": "https://lcappell.github.io/GuessingGame/",
       "github_link": "https://github.com/LCappell/GuessingGame",
@@ -39,9 +52,9 @@
     },
 
     {
-      "id": "3",
+      "id": "4",
       "project_name": "Conference website with interactive form",
-      "description": "A full-stack confrence mockup website with an interactive register form.",
+      "description": "A full-stack confrence mockup website with an interactive register form. I used Bootstrap, CSS and JavaScript to create a two page website. A page displaying a full-stack conference, and if the user decides to registere they  will be sent to a second page. A interactive form using Regular Expresions which will allow to user to complete the form if all inputs are completed correctly",
       "technologies": ["JavaScript", "CSS", "HTML", "Bootstrap"],
       "live_link": "https://lcappell.github.io/Conf_website/",
       "github_link": "https://github.com/LCappell/Conf_website",
@@ -56,7 +69,7 @@
     },
 
     {
-      "id": "4",
+      "id": "5",
       "project_name": " React GIF Generator",
       "description": "A react webpage which generates trending gifs from an API. Complete with a search bar to see your favourite gifs!",
       "technologies": ["JavaScript", "React", "CSS", "HTML", "Axios"],
@@ -65,7 +78,7 @@
       "image_urls": ["/images/gif1.png", "/images/gif2.png"]
     },
     {
-      "id": "5",
+      "id": "6",
       "project_name": " React Photo Gallery",
       "description": "A react webpage which generates images from Flikr API. Complete with a search bar to see your favourite pictures!",
       "technologies": ["JavaScript", "React", "CSS", "HTML", "Axios"],
