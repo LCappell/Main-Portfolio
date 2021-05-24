@@ -140,7 +140,7 @@ nav {
 }
 
 .nav {
-  background-image: linear-gradient(to bottom, #40e0d0, #fff);
+  background-image: linear-gradient(to bottom, #5be272, #fff);
 }
 
 nav a {
@@ -314,7 +314,7 @@ nav a span {
 .portfolio-intro {
   max-width: 1200px;
   padding: 40px 50px 30px;
-  background-image: linear-gradient(to right, #40e0d0, #fff);
+  background-color: #5be272;
 }
 
 .portfolio-intro h1 {
