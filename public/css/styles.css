@@ -33,7 +33,7 @@ body {
 }
 
 article {
-  background-image: var(--main-colour);
+  background-color: #fff;
 }
 #errImg {
   margin-left: 25px;
@@ -93,7 +93,7 @@ a {
   min-width: 320px;
   height: 100%;
   min-height: 100%;
-  background-image: linear-gradient(to right, #40e0d0, #fff);
+  background-color: #fff;
 }
 
 .flex-row-wrap {
@@ -137,7 +137,10 @@ a {
 nav {
   width: 100%;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+}
+
+.nav {
+  background-image: linear-gradient(to bottom, #40e0d0, #fff);
 }
 
 nav a {
@@ -311,6 +314,7 @@ nav a span {
 .portfolio-intro {
   max-width: 1200px;
   padding: 40px 50px 30px;
+  background-image: linear-gradient(to right, #40e0d0, #fff);
 }
 
 .portfolio-intro h1 {
