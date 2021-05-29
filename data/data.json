@@ -16,7 +16,7 @@
     {
       "id": "1",
       "project_name": "User API",
-      "description": "A generated random User API displayinng each individuals information. Complete with a search bar and pagination buttons. I creatd this project to build my skills with fetching API's using vanilla JavaScript. ",
+      "description": "A generated random User API displayinng each individuals information. Complete with a search bar and pagination buttons. I created this project to build my skills with fetching API's using vanilla JavaScript. ",
       "technologies": ["JavaScript", "CSS", "HTML", "Fetch API"],
       "live_link": "https://lcappell.github.io/Public_API/",
       "github_link": "https://github.com/LCappell/Public_API",
