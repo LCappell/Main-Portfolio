@@ -27,7 +27,7 @@
       "project_name": "Cafe Website",
       "description": "A Cafe website using HTML, CSS and JavaScript. I used my skills in CSS grid and flexbox to create a great looking website that can be applied to many projects.",
       "technologies": ["JavaScript", "CSS", "HTML"],
-      "live_link": "https://lcappell.github.io/Cafe_website/",
+      "live_link": "https://relaxed-edison-e50277.netlify.app/",
       "github_link": "https://github.com/LCappell/Cafe_website",
       "image_urls": [
         "/images/cafe1.png",
