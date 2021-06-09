@@ -36,8 +36,18 @@
         "/images/cafe4.png"
       ]
     },
+
     {
       "id": "3",
+      "project_name": "SQL Library App",
+      "description": "A libary app built with with a SQL (sequelize) database that allows the user to view,create, update and delete books in a databse. I used NodeJs with express for the backend and pug templating with CSS styling for the user interface. ",
+      "technologies": ["JavaScript", "SQL", "CSS", "PUG", "Sequelize"],
+      "live_link": "https://sql-library-app.herokuapp.com/books",
+      "github_link": "https://github.com/LCappell/sql_library",
+      "image_urls": ["/images/sql1.png", "/images/sql2.png", "/images/sql3.png"]
+    },
+    {
+      "id": "4",
       "project_name": "Guessing Game",
       "description": "A guessing phrase game. I used object-oriented programming (OOP) to create a guessing game. The user can win or loose depending whether they guess the correct phrase and will be shown a winner or loser screen. Give the game a go and see if you can guess the phrases! Have fun! ",
       "technologies": ["JavaScript", "CSS", "HTML"],
@@ -52,7 +62,7 @@
     },
 
     {
-      "id": "4",
+      "id": "5",
       "project_name": "Conference website with interactive form",
       "description": "A full-stack confrence mockup website with an interactive register form. I used Bootstrap, CSS and JavaScript to create a two page website. A page displaying a full-stack conference, and if the user decides to registere they  will be sent to a second page. A interactive form using Regular Expresions which will allow to user to complete the form if all inputs are completed correctly",
       "technologies": ["JavaScript", "CSS", "HTML", "Bootstrap"],
@@ -69,7 +79,7 @@
     },
 
     {
-      "id": "5",
+      "id": "6",
       "project_name": " React GIF Generator",
       "description": "A react webpage which generates trending gifs from an API. Complete with a search bar to see your favourite gifs!",
       "technologies": ["JavaScript", "React", "CSS", "HTML", "Axios"],
@@ -78,7 +88,7 @@
       "image_urls": ["/images/gif1.png", "/images/gif2.png"]
     },
     {
-      "id": "6",
+      "id": "7",
       "project_name": " React Photo Gallery",
       "description": "A react webpage which generates images from Flikr API. Complete with a search bar to see your favourite pictures!",
       "technologies": ["JavaScript", "React", "CSS", "HTML", "Axios"],
