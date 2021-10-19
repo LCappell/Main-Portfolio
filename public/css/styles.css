@@ -1,10 +1,12 @@
 /* Import */
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
 /*
   Main styles
 */
 * {
   box-sizing: border-box;
+  font-family: 'Chivo', sans-serif;
 }
 
 :root {
@@ -29,7 +31,7 @@ body {
   background: #000;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
 }
 
 article {
@@ -52,7 +54,7 @@ article {
 }
 
 h1 {
-  font-family: "Cairo", sans-serif;
+  /* font-family: "Cairo", sans-serif; */
   letter-spacing: 6px;
 }
 
@@ -61,7 +63,7 @@ h3,
 h4,
 h5,
 p {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   font-size: 350;
 }
 
@@ -346,14 +348,27 @@ nav a span {
   color: #222;
   margin: 0 auto 8px;
 }
+.projects-box {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+.cell{
+  width:40%
+}
 
 .cell a {
-  width: 100%;
+  width: 10%;
 }
 
 .cell img {
   border-radius: 6px;
-  width: 100%;
+  width: 110%;
   min-width: 100px;
   border: 4px solid #fff;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
